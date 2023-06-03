@@ -1,0 +1,33 @@
+{
+  "name": "node-hydro-arpae",
+  "version": "0.0.1",
+  "description": "Node library to use ARPAE open data hydrometers",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/nicomontanari/node-hydro-arpae.git",
+  "author": "Nico Montanari <nico.montanari@22hbg.it>",
+  "license": "MIT",
+  "scripts": {
+    "predist": "rm -rf lib/",
+    "dist": "tsc",
+    "test": "jest",
+    "format": "prettier --check '{*,{src}/**/*}.{ts,js,json}'",
+    "format-fix": "prettier --write '{*,{src}/**/*}.{ts,js,json}'",
+    "lint": "eslint --cache --ext .jsx,.js,.ts,.tsx src/",
+    "lint-fix": "eslint --cache --fix --ext .jsx,.js,.ts,.tsx src/"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
