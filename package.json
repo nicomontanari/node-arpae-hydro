@@ -1,10 +1,10 @@
 {
-    "name": "node-hydro-arpae",
+    "name": "node-arpae-hydro",
     "version": "0.0.1",
     "description": "Node library to use ARPAE open data hydrometers",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
-    "repository": "https://github.com/nicomontanari/node-hydro-arpae.git",
+    "repository": "https://github.com/nicomontanari/node-arpae-hydro.git",
     "author": "Nico Montanari <nico.montanari@22hbg.it>",
     "license": "MIT",
     "scripts": {
